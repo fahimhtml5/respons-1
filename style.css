@@ -393,10 +393,14 @@ ul.social-icon svg {
     }
     .header-btns {
         text-align: end;
+        align-items: center;
         display: flex;
     }
     .hero-text h1 {
         font-size: 43px;
+    }
+    .menu-1 {
+        margin-left: 10px;
     }
     .menu-1-btn {
         display: block;
