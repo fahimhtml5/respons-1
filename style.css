@@ -98,6 +98,16 @@ a.border-btn {
     border-radius: 5px;
 }
 
+.mobile-menu li a.nbs {
+    color: #1326F6;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.mobile-menu li a.nbs-2 {
+    border: 1px solid #1326F6;
+    margin: 4px 0;
+}
 
 /* Section-2 */
 
@@ -360,17 +370,6 @@ ul.social-icon svg {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* Responsive-CSS */
 
 @media (max-width: 1200px) {
@@ -379,6 +378,9 @@ ul.social-icon svg {
     }
     .hero-text h1 {
         font-size: 48px;
+    }
+    .mobile-menu li a.nbs {
+        display: none;
     }
 }
 
@@ -506,8 +508,20 @@ ul.social-icon svg {
     .hero-text h1 {
         font-size: 45px;
     }
-    .header-btns a {
+    /* .header-btns a {
         padding: 8px 5px;
+    } */
+    .header-btns a {
+        display: none;
+    }
+    .mobile-menu li a.nbs {
+        display: inline-block;
+    }
+    .hero-text h3 {
+        padding: 0;
+    }
+    section.stats .cta-text h2 {
+        padding: 0;
     }
 }
 
